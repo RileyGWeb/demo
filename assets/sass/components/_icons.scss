@@ -1,5 +1,4 @@
 
-
 /* Icons */
 
 	ul.icons {
@@ -9,7 +8,7 @@
 
 		li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 0.8rem 0 0;
 
 			&:last-child {
 				padding-right: 0;
@@ -17,7 +16,19 @@
 
 			.icon {
 				&:before {
-					font-size: 2em;
+					font-size: 1.5rem;
+				}
+			}
+		}
+
+		@include breakpoint('<=small') {
+			li {
+				padding: 0 0.75rem 0 0;
+
+				.icon {
+					&:before {
+						font-size: 1.25rem;
+					}
 				}
 			}
 		}
