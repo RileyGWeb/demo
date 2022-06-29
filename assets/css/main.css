@@ -1965,6 +1965,19 @@ table.alt tbody tr td {
     border-color: rgba(255, 255, 255, 0.35); }
   .banner hr {
     border-bottom-color: rgba(255, 255, 255, 0.35); }
+  .banner .content {
+    display: flex; }
+    .banner .content > * {
+      width: 50%;
+      align-self: center;
+      padding: 0 2em; }
+    .banner .content:last-child {
+      display: flex; }
+    .banner .content p {
+      max-width: 410px;
+      margin: 0 auto 2em auto; }
+    .banner .content img {
+      max-height: 450px; }
   .banner .image {
     pointer-events: none;
     position: absolute;
@@ -2009,7 +2022,7 @@ table.alt tbody tr td {
       -webkit-transition: -webkit-transform 2.1875s ease-out, -webkit-filter 2.1875s ease-out;
       -ms-transition: -ms-transform 2.1875s ease-out, -ms-filter 2.1875s ease-out;
       transition: transform 2.1875s ease-out, filter 2.1875s ease-out; }
-  .banner h1, .banner .actions {
+  .banner .content {
     -moz-transition: opacity 0.875s ease-out, -moz-transform 0.875s ease-out, -moz-filter 0.875s ease-out;
     -webkit-transition: opacity 0.875s ease-out, -webkit-transform 0.875s ease-out, -webkit-filter 0.875s ease-out;
     -ms-transition: opacity 0.875s ease-out, -ms-transform 0.875s ease-out, -ms-filter 0.875s ease-out;
@@ -2031,7 +2044,7 @@ table.alt tbody tr td {
     -webkit-transform: translateX(-1.5rem) scale(1.125);
     -ms-transform: translateX(-1.5rem) scale(1.125);
     transform: translateX(-1.5rem) scale(1.125); }
-  body.is-preload .banner h1, body.is-preload .banner .actions {
+  body.is-preload .banner .content {
     -moz-transform: scale(0.985);
     -webkit-transform: scale(0.985);
     -ms-transform: scale(0.985);
@@ -2043,16 +2056,37 @@ table.alt tbody tr td {
     opacity: 0; }
   @media screen and (max-width: 1280px) {
     .banner {
-      padding: 10rem 3rem 8rem 3rem ; } }
+      padding: 10rem 3rem 8rem 3rem ; }
+      .banner .content img {
+        max-height: 350px; } }
   @media screen and (max-width: 980px) {
     .banner {
-      padding: 18rem 3rem 16rem 3rem ; } }
+      padding: 8rem 3rem 6rem 3rem ; }
+      .banner .content > div:first-child {
+        width: 150%;
+        padding: 0 1.25em; }
+      .banner .content > div:last-child {
+        width: 90%;
+        position: absolute;
+        max-height: unset;
+        right: calc(10vw - 300px);
+        bottom: -10px;
+        z-index: -1;
+        opacity: 0.75; } }
   @media screen and (max-width: 736px) {
     .banner {
-      padding: 6rem 3rem 4rem 3rem ; } }
+      padding: 6rem 3rem 4rem 3rem ; }
+      .banner .content > * {
+        width: 100%;
+        align-self: center;
+        padding: 0em; } }
   @media screen and (max-width: 480px) {
     .banner {
-      padding: 10rem 1.5rem 8rem 1.5rem ; } }
+      padding: 10rem 1.5rem 8rem 1.5rem ; }
+      .banner .content > div:last-child {
+        bottom: -110px;
+        opacity: 0.35;
+        right: 0; } }
   @media screen and (max-width: 360px) {
     .banner {
       padding: 8rem 1.5rem 6rem 1.5rem ; } }
@@ -2777,7 +2811,9 @@ body {
   padding: 6rem 0; }
   #wrapper > * {
     margin: 3.5rem 0 0 0;
-    box-shadow: 0 1rem 4rem 0.125rem rgba(161, 177, 204, 0.325); }
+    box-shadow: 0 1rem 4rem 0.125rem rgba(161, 177, 204, 0.325);
+    border-radius: 8px;
+    overflow: hidden; }
   #wrapper > :first-child {
     margin-top: 0; }
   @media screen and (max-width: 1680px) {

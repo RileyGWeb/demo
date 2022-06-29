@@ -12,6 +12,28 @@
 		position: relative;
 		text-align: center;
 
+		.content {
+			display: flex; 
+			& > * {
+				width:50%;
+				align-self: center;
+				padding: 0 2em;
+			}
+
+			&:last-child {
+				display: flex;
+			}
+
+			p {
+				max-width: 410px;
+				margin: 0 auto 2em auto;
+			}
+
+			img {
+				max-height: 450px;
+			}
+		}
+
 		.image {
 			@include vendor('pointer-events', 'none');
 			position: absolute;
@@ -58,7 +80,7 @@
 			}
 		}
 
-		h1, .actions {
+		.content {
 			@include vendor('transition', (
 				'opacity #{$duration * 1} ease-out',
 				'transform #{$duration * 1} ease-out',
@@ -83,7 +105,7 @@
 				}
 			}
 
-			h1, .actions {
+			.content {
 				@include vendor('transform', 'scale(0.985)');
 				@include vendor('filter', 'blur(0.1rem)');
 				opacity: 0;
@@ -92,18 +114,54 @@
 
 		@include breakpoint('<=large') {
 			@include padding(10rem, 3rem);
+			.content {
+				img {
+					max-height: 350px;
+				}
+			}
 		}
 
 		@include breakpoint('<=medium') {
-			@include padding(18rem, 3rem);
+			@include padding(8rem, 3rem);
+			.content {
+				& > div:first-child {
+					width: 150%;
+					padding: 0 1.25em;
+				}
+				& > div:last-child { 
+					width: 90%;
+					position: absolute;
+					max-height: unset;
+					right: calc(10vw - 300px);
+					bottom: -10px;
+					z-index: -1;
+					opacity: 0.75;
+				 }
+				
+			}
 		}
 
 		@include breakpoint('<=small') {
 			@include padding(6rem, 3rem);
+			.content {
+				& > * {
+					width: 100%;
+					align-self: center;
+					padding: 0em;
+				}
+
+			}
 		}
 
 		@include breakpoint('<=xsmall') {
 			@include padding(10rem, 1.5rem);
+			.content {
+				& > div:last-child {
+					bottom: -110px;
+					opacity: 0.35;
+					right: 0;
+				}
+			}
 		}
 
 		@include breakpoint('<=xxsmall') {
