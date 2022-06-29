@@ -1871,7 +1871,7 @@ table.alt tbody tr td {
 /* Banner */
 .banner {
   color: #ffffff;
-  padding: 12rem 6rem 10rem 6rem ;
+  padding: 6rem 6rem 4rem 6rem ;
   cursor: default;
   position: relative;
   text-align: center; }
@@ -2056,7 +2056,7 @@ table.alt tbody tr td {
     opacity: 0; }
   @media screen and (max-width: 1280px) {
     .banner {
-      padding: 10rem 3rem 8rem 3rem ; }
+      padding: 5rem 3rem 3rem 3rem ; }
       .banner .content img {
         max-height: 350px; } }
   @media screen and (max-width: 980px) {
