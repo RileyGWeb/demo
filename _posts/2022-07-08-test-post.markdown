@@ -1,7 +1,0 @@
----
-layout: post
-
-title: Paypal rate hike
----
-
-Some sample content
