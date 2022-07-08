@@ -72,7 +72,7 @@ html {
 
 body {
   background-color: #f2f5fa;
-  background-image: url("../../images/overlay.png"), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='100' viewBox='0 0 200 100' preserveAspectRatio='none'%3E%3Cdefs%3E%3CradialGradient id='rg1' cx='0%25' cy='0%25' r='100%25' fx='0%25' fy='0%25'%3E%3Cstop offset='0%25' style='stop-color: %23F37520%3B stop-opacity: 0.5' /%3E%3Cstop offset='100%25' style='stop-color: %23F37520%3B stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='rg2' cx='100%25' cy='0%25' r='100%25' fx='100%25' fy='0%25'%3E%3Cstop offset='0%25' style='stop-color: %23FAA819%3B stop-opacity: 0.5' /%3E%3Cstop offset='100%25' style='stop-color: %23FAA819%3B stop-opacity:0' /%3E%3C/radialGradient%3E%3C/defs%3E%3Cpolygon points='0,0 125,0 125,100 0,100' style='fill: url(%23rg1)%3B' /%3E%3Cpolygon points='75,0 200,0 200,100 75,100' style='fill: url(%23rg2)%3B' /%3E%3C/svg%3E"), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='100' viewBox='0 0 200 100' preserveAspectRatio='none'%3E%3Cdefs%3E%3CradialGradient id='rg1' cx='0%25' cy='100%25' r='100%25' fx='0%25' fy='100%25'%3E%3Cstop offset='0%25' style='stop-color: %23F37520%3B stop-opacity: 0.5' /%3E%3Cstop offset='100%25' style='stop-color: %23F37520%3B stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='rg2' cx='100%25' cy='100%25' r='100%25' fx='100%25' fy='100%25'%3E%3Cstop offset='0%25' style='stop-color: %23FAA819%3B stop-opacity: 0.5' /%3E%3Cstop offset='100%25' style='stop-color: %23FAA819%3B stop-opacity:0' /%3E%3C/radialGradient%3E%3C/defs%3E%3Cpolygon points='0,0 125,0 125,100 0,100' style='fill: url(%23rg1)%3B' /%3E%3Cpolygon points='75,0 200,0 200,100 75,100' style='fill: url(%23rg2)%3B' /%3E%3C/svg%3E");
+  background-image: url("../../images/overlay.png"), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='100' viewBox='0 0 200 100' preserveAspectRatio='none'%3E%3Cdefs%3E%3CradialGradient id='rg1' cx='0%25' cy='0%25' r='100%25' fx='0%25' fy='0%25'%3E%3Cstop offset='0%25' style='stop-color: %2300509D%3B stop-opacity: 0.5' /%3E%3Cstop offset='100%25' style='stop-color: %2300509D%3B stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='rg2' cx='100%25' cy='0%25' r='100%25' fx='100%25' fy='0%25'%3E%3Cstop offset='0%25' style='stop-color: %2365c1d8%3B stop-opacity: 0.5' /%3E%3Cstop offset='100%25' style='stop-color: %2365c1d8%3B stop-opacity:0' /%3E%3C/radialGradient%3E%3C/defs%3E%3Cpolygon points='0,0 125,0 125,100 0,100' style='fill: url(%23rg1)%3B' /%3E%3Cpolygon points='75,0 200,0 200,100 75,100' style='fill: url(%23rg2)%3B' /%3E%3C/svg%3E"), url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='100' viewBox='0 0 200 100' preserveAspectRatio='none'%3E%3Cdefs%3E%3CradialGradient id='rg1' cx='0%25' cy='100%25' r='100%25' fx='0%25' fy='100%25'%3E%3Cstop offset='0%25' style='stop-color: %2300509D%3B stop-opacity: 0.5' /%3E%3Cstop offset='100%25' style='stop-color: %2300509D%3B stop-opacity:0' /%3E%3C/radialGradient%3E%3CradialGradient id='rg2' cx='100%25' cy='100%25' r='100%25' fx='100%25' fy='100%25'%3E%3Cstop offset='0%25' style='stop-color: %23FAA819%3B stop-opacity: 0.5' /%3E%3Cstop offset='100%25' style='stop-color: %23FAA819%3B stop-opacity:0' /%3E%3C/radialGradient%3E%3C/defs%3E%3Cpolygon points='0,0 125,0 125,100 0,100' style='fill: url(%23rg1)%3B' /%3E%3Cpolygon points='75,0 200,0 200,100 75,100' style='fill: url(%23rg2)%3B' /%3E%3C/svg%3E");
   background-size: auto, 100% 60rem, 100% 60rem;
   background-position: top left, top left, bottom left;
   background-repeat: repeat, no-repeat, no-repeat; }
@@ -1999,8 +1999,8 @@ table.alt tbody tr td {
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url("../../images/overlay.png"), url("../../images/overlay.png"), linear-gradient(45deg, #F37520, #FAA819);
-      opacity: 0.7;
+      background-image: url("../../images/overlay.png"), url("../../images/overlay.png"), linear-gradient(45deg, #00509D, #00296B);
+      opacity: 0.4;
       z-index: 1; }
     .banner .image:after {
       -moz-transition: opacity 1.3125s ease-in-out;
@@ -2014,8 +2014,8 @@ table.alt tbody tr td {
       left: 0;
       width: 100%;
       height: 100%;
-      background-image: url("../../images/overlay.png"), url("../../images/overlay.png"), linear-gradient(45deg, #F37520, #FAA819);
-      opacity: 0.4;
+      background-image: url("../../images/overlay.png"), url("../../images/overlay.png"), linear-gradient(45deg, #00509D, #1E91D0);
+      opacity: 0.2;
       z-index: 1; }
     .banner .image img {
       -moz-transition: -moz-transform 2.1875s ease-out, -moz-filter 2.1875s ease-out;
@@ -2062,35 +2062,28 @@ table.alt tbody tr td {
         max-height: 350px; } }
   @media screen and (max-width: 980px) {
     .banner {
-      padding: 8rem 3rem 6rem 3rem ; }
-      .banner .content > div:first-child {
-        width: 150%;
-        padding: 0 1.25em; }
-      .banner .content > div:last-child {
-        width: 90%;
-        position: absolute;
-        max-height: unset;
-        right: calc(10vw - 300px);
-        bottom: -10px;
-        z-index: -1;
-        opacity: 0.75; } }
+      padding: 6rem 3rem 4rem 3rem ; }
+      .banner .content {
+        flex-direction: column; }
+        .banner .content > * {
+          width: 100%; } }
   @media screen and (max-width: 736px) {
     .banner {
       padding: 6rem 3rem 4rem 3rem ; }
       .banner .content > * {
         width: 100%;
         align-self: center;
-        padding: 0em; } }
+        padding: 0em; }
+      .banner .content > div:last-child {
+        margin-top: 1rem; } }
   @media screen and (max-width: 480px) {
     .banner {
-      padding: 10rem 1.5rem 8rem 1.5rem ; }
+      padding: 4rem 1.5rem 2rem 1.5rem ; }
       .banner .content > div:last-child {
-        bottom: -110px;
-        opacity: 0.35;
-        right: 0; } }
+        margin-top: 1rem; } }
   @media screen and (max-width: 360px) {
     .banner {
-      padding: 8rem 1.5rem 6rem 1.5rem ; } }
+      padding: 3rem 1.5rem 1rem 1.5rem ; } }
 
 /* Features */
 .features {
@@ -2600,7 +2593,7 @@ table.alt tbody tr td {
     .main.style2 > *:before {
       background: rgba(255, 255, 255, 0.35); }
     .main.style2 > header > :first-child:after {
-      background-image: linear-gradient(90deg, #c7e2ea, #d1c2ff); }
+      background-image: linear-gradient(90deg, #ffffff, rgba(255, 255, 255, 0.75)); }
   @media screen and (max-width: 1280px) {
     .main > header {
       padding: 5rem 3rem 3rem 3rem ; }
@@ -2794,7 +2787,7 @@ body {
 
 /* Footer */
 #footer {
-  color: #1E91D0;
+  color: #000;
   margin: -2rem 0 6rem 0;
   text-align: center; }
   @media screen and (max-width: 1680px) {

@@ -108,7 +108,7 @@
 			> header {
 				> :first-child {
 					&:after {
-						background-image: linear-gradient(90deg, _palette(invert, accent1), _palette(invert, accent4));
+						background-image: linear-gradient(90deg, _palette(invert, fg-bold), _palette(invert, fg-light));
 					}
 				}
 			}
